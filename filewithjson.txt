@@ -1,2 +1,0 @@
-{"exampleName":"Набор параметров №1 ","fastLeng":5,"slowLeng":12,"timeFrame":15,"closedTrades":405,"deviationLeng":5,"deviationScale":-50,"stopLoss":4.0,"takeProfit":5.0,"trail":0.0,"profitability":0.962,"expScale":0.05,"errorFunc":150.8366768736258,"drawdown_usd":"$ 520.90","drawdown_percentage":"45.04 %","source":0}
-Набор параметров №1 
