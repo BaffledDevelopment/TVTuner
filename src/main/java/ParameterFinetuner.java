@@ -10,9 +10,7 @@ public class ParameterFinetuner {
     public ParameterFinetuner() {
     }
 
-    // тыкать в стрелочки вверх\вниз, 70% шанс ничего не делаем для параметра, 15% тык вверх, 15% вниз
-    // ролять для каждого параметра
-    // ролять до посинения
+    // rolling until dead
 
     public void randomChooseParameterUp(WebDriver driver, Actions builder, Hyperparameter param) throws InterruptedException {
 

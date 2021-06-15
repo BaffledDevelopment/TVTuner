@@ -136,7 +136,7 @@ public class HelloSelenium {
             if (foo < 71) {
                 System.out.println("Do nothing yet again " + i);
 
-            }                 // 70% шанс ничего не делать, код для видимости
+            }                 // 70% chance do nothing
             else if (foo < 86) {
                 tuner.randomChooseParameterUp(driver, builder, theBestParams);
                 getProfitabilityNumberGetBack(driver, theBestParams);
@@ -161,9 +161,9 @@ public class HelloSelenium {
 //                    fineTunedParams = theBestParams.clone();
 //                    System.out.println(mapper.writeValueAsString(fineTunedParams));
 //                }
-            } // выбрать случайный параметр и подкрутить его ВВЕРХ на 1 деление
+            } // choose random param and move it once in chosen direction
             else {
-                tuner.randomChooseParameterDown(driver, builder, theBestParams);// выбрать случайный параметр и подкрутить его ВНИЗ на 1 деление
+                tuner.randomChooseParameterDown(driver, builder, theBestParams);// choose random param
 
                 getProfitabilityNumberGetBack(driver, theBestParams);
 
