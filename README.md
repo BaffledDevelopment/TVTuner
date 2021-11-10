@@ -11,6 +11,9 @@ I have implemented general functionality like:
 6) code will break at will
 
 **IMPORTANT NOTE**
+
 If you try to use this, log into TradingView via Google profile and move profile folder somewhere else, because I couldn't figure how to log using cookies. Refer to comments in HelloSelenum.java file.
+
 Also there was another important python piece of code that was hosted locally using Docker and I can't find it anymore. Whoops.
+
 I wont be using or maintaining this anymore, there are way better tools to backtest your strategies, but it was a nice back on the envelope experiment.
